@@ -212,6 +212,12 @@ ul#saved {
   top: 2em;
   right: 0;
   padding: 0.5em 1em;
+
+  /* For making it scrollable */
+  max-height: 90vh;
+  scrollbar-width: thin;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 ul#saved li {
